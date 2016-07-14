@@ -1,0 +1,92 @@
+img{
+	max-width: 100%;
+}
+
+h2{
+	font-weight: bold;
+}
+
+#youtube-wrapper{
+	margin: 0px 40px;
+}
+
+#header{
+	height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid black;
+}
+
+#header h1{
+	font-size: 20px;
+}
+
+#logo{
+	display: inline-block;
+	width: 20%;
+}
+
+#logo img{
+	max-width: 150px;
+}
+
+#nav{
+	border-bottom: 1px solid black;
+}
+
+#search-nav{
+	width: 50%;
+	display: inline-block;
+
+}
+
+#search-nav input[type=text]{
+	width: 60%;
+}
+
+#account-container{
+	display: inline-block;
+	width: 18%;
+}
+
+#account-text{
+	display: inline-block;
+}
+
+#nav-bar ul li{
+	display: inline-block;
+	border-right: 1px solid black;
+	padding: 0px 20px 0px 10px;
+	text-decoration: underline;
+}
+
+#nav-bar ul li:last-child{
+	border: none;
+}
+
+#account-link{
+	display: inline-block;
+	padding-right: 10px;
+}
+
+#content{
+	display: inline-block;
+	margin-top: 20px;
+	width: 60%;
+}
+
+#featured-wrapper{
+	background-color: #cacaca;
+	padding: 0px 15px;
+}
+
+#featured-wrapper, #featured, #secondary-videos{
+	display: inline-block;
+}
+
+#secondary-videos{
+	width: 45%;
+}
+
+.small-video, .small-video-text{
+	display: inline-block;
+}
